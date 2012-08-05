@@ -135,8 +135,8 @@
 	background-position: 26px 283px;
 	font-size: 10px;
 	position:absolute;
-	top:7px;
-	left: 39px;
+	top:8px;
+	left: 45px;
 }
 #image-space{
 	background-position: 26px 283px;
@@ -154,42 +154,26 @@
 	height: 74px;
 	width:100%;
 }
-#photo-1{
-	background-image: url(images/friends.png);
-	background-repeat: no-repeat;
-	position: absolute;
-	height: 100%;
-	width: 100%;
-	visibility: visible;
-}
 #photo-2{
-	background-image: url(images/photos.png);
-	background-repeat: no-repeat;
-	position: absolute;
+	position: relative;
+	left: 125px;
+	top: -75px;
 	height: 100%;
 	width: 100%;
-	visibility: visible;
-	background-position: 120px;
 }
 #photo-3{
-	background-image: url(images/maps.png);
-	background-repeat: no-repeat;
-	position: absolute;
+	position: relative;
 	height: 100%;
 	width: 100%;
-	visibility: visible;
-	background-position: 240px;
+	top: -150px;
+	left: 250px;
 }
 #photo-4{
-	background-image: url(images/subscibers.png);
-	background-repeat: no-repeat;
-	position: absolute;
+	position: relative;
 	height: 100%;
 	width: 100%;
-	visibility: visible;
-	background-position: 360px;
-}
-#photo-5{
+	top: -225px;
+	left: 375px;
 }
 #not-fb{
 	font-family: 'Source Sans Pro', sans-serif;
@@ -199,5 +183,41 @@
 	left: 73px;
 	height: 74px;
 	right: 20%;
-	
 }
+#body-usable-data{
+	font-family: 'Source Sans Pro', sans-serif;
+	background-color: #FFF;
+	position: relative;
+	height: 492px;
+	width: 100%;
+	top: 111px;
+}
+#friends-links{
+	font-family: 'Source Sans Pro', sans-serif;
+	position: relative;
+	top: -218px;
+	font-size: 12px;
+}
+#photo-links{
+	font-family: 'Source Sans Pro', sans-serif;	
+	position: relative;
+	top: -230px;	
+	left : 126px;
+	font-size: 12px;	
+}
+#contact-links{
+	font-family: 'Source Sans Pro', sans-serif;	
+	position: relative;
+	top: -247px;
+	left : 250px;
+	font-size: 12px;	
+}
+#subscribe-links{
+	font-family: 'Source Sans Pro', sans-serif;	
+	position: relative;
+	top: -261px;
+	left : 378px;	
+	font-size: 12px;
+}
+
+
